@@ -1,5 +1,10 @@
 # 📞 ContactFlow
 
+<div align="center">
+  <img src="Assets/Images/image-03.png" alt="ContactFlow Interface" width="650px"/>
+  <p><em>🎯 Modern and intuitive contact management interface showcasing our clean design philosophy and user-centric approach</em></p>
+</div>
+
 A seamless contact management system that makes organizing connections effortless. Built with Python, ContactFlow offers intuitive contact handling with persistent storage, making it perfect for both personal and professional use.
 
 ## Why ContactFlow?
