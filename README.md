@@ -119,4 +119,4 @@ SOFTWARE.
 
 If you have any questions or need help, feel free to open an issue!
 
-This project is created by `@moelkenzi` at SNU and `@Gabaxey` at Zam-Zam University.
+This project is created by [@moelkenzi](https://github.com/moelkenzi) at SNU and [@Gabaxey](https://github.com/Gabaxey) at Zam-Zam University.
