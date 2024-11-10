@@ -1,6 +1,14 @@
-# 📞 Contact Management System
+# 📞 ContactFlow
 
-A simple command-line contact management system built in Python that allows users to store, manage, and persist contact information using JSON file storage. 
+A seamless contact management system that makes organizing connections effortless. Built with Python, ContactFlow offers intuitive contact handling with persistent storage, making it perfect for both personal and professional use.
+
+## Why ContactFlow?
+✨ Fluid user experience
+💾 Automatic data persistence (JSON/SQLite)
+🔍 Quick contact search
+➕ Easy add/remove functionality
+📱 Clean command-line interface
+🔄 Real-time updates
 
 ## ✨ Features
 
@@ -63,9 +71,35 @@ The main program is contained in `update.py` and creates a `contacts.json` file 
 
 Feel free to fork this project and enhance it with new features! 
 
-### 📝 License
+### 📄 License
 
-Free to use for educational purposes! 
+This project is licensed under the MIT License.
+
+<details>
+<summary>View License Text</summary>
+
+MIT License
+
+Copyright (c) 2024 ContactFlow
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</details>
 
 ### 🤝 Support
 
