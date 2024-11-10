@@ -5,68 +5,77 @@
   <p><em>🎯 Modern and intuitive contact management interface showcasing our clean design philosophy and user-centric approach</em></p>
 </div>
 
-A seamless contact management system that makes organizing connections effortless. Built with Python, ContactFlow offers intuitive contact handling with persistent storage, making it perfect for both personal and professional use.
+A versatile contact management system that makes organizing connections effortless. Built with Python, ContactFlow offers both GUI and CLI interfaces with multiple storage options, making it perfect for both personal and professional use.
 
 ## Why ContactFlow?
-✨ Fluid user experience
-💾 Automatic data persistence (JSON/SQLite)
-🔍 Quick contact search
+✨ Modern GUI interface with dark mode support
+🖥️ Dual interface options (GUI/CLI)
+💾 Multiple storage options (JSON/SQLite)
+🔍 Advanced contact search
 ➕ Easy add/remove functionality
-📱 Clean command-line interface
 🔄 Real-time updates
+📊 Contact history tracking
 
 ## ✨ Features
 
-- ➕ Add new contacts with name, phone number, and email
-- ❌ Remove existing contacts by name  
-- 📋 Display all stored contacts
-- 💾 Persistent data storage using JSON
-- 🔄 Auto-load contacts on startup
-- 💫 Auto-save contacts on exit
+- 🎨 Modern GUI interface with customizable themes
+- ➕ Add contacts with name, phone, email, and notes
+- ❌ Remove contacts by name or ID
+- 📋 Display contacts in table or list view
+- 💾 Choice of JSON or SQLite storage
+- 📅 Contact creation date tracking
+- 🔍 Advanced search functionality
+- 💫 Auto-save and load functionality
 
-## 🛠️ How It Works
+## 🛠️ Available Interfaces
 
-The program uses a JSON-based storage system to maintain contact information between sessions. The main data structure (`store`) is a list that holds contact information as nested lists.
+### 1. GUI Interface
+Modern graphical interface with:
+- Sidebar navigation
+- Contact table view
+- Search functionality
+- Settings panel
+- Themed components
 
-### 🔑 Core Functions
-
-1. **📥 Contact Storage**
-   - `save_contacts()`: Writes contact data to contacts.json
-   - `load_contacts()`: Retrieves contact data from contacts.json on startup
-
-2. **⚙️ Contact Management**
-   - `add_contact()`: Adds a new contact with name, number, and email
-   - `remove_contact()`: Removes a contact by name
-   - `show_contact()`: Displays all stored contacts in a formatted view
-
-### 📊 Data Structure
-
-Contacts are stored in the following format:
-
-
-## 🚀 Usage
-
-1. Run the program
-2. Choose from the following options:
-   - 1️⃣ Add a new contact
-   - 2️⃣ Remove an existing contact
-   - 3️⃣ Show all contacts
-   - 4️⃣ Exit the program
-
-## 💡 Example
-
+### 2. CLI Interface
+Traditional command-line interface for:
+- Quick access
+- Script automation
+- Server environments
 
 ## 🔧 Technical Details
 
 - 🐍 Written in Python
-- 📦 Uses the `json` module for data persistence
-- ⚠️ Implements error handling for file operations
-- 🌐 Global `store` variable for runtime contact storage
-- 💾 Automatic data persistence on program exit
+- 🎨 Uses tkinter and customtkinter for GUI
+- 📦 Supports both JSON and SQLite storage
+- ⚠️ Comprehensive error handling
+- 🕒 Datetime tracking for contacts
+- 💾 Automatic data persistence
 
 ## 📁 File Structure
 
-The main program is contained in `update.py` and creates a `contacts.json` file for data storage in the same directory.
+- `GUI.py`: Modern graphical interface
+- `update.py`: Traditional CLI interface
+- `sample.py`: SQLite implementation
+- `contacts.json`: JSON storage
+- `contacts.db`: SQLite database
+
+## 🚀 Usage
+
+### GUI Version
+1. Run `GUI.py`
+2. Use the sidebar for navigation
+3. Add, view, or search contacts
+4. Access settings for customization
+
+### CLI Version
+1. Run `update.py` or `sample.py`
+2. Choose from the menu options:
+   - 1️⃣ Add contact
+   - 2️⃣ Remove contact
+   - 3️⃣ Show contacts
+   - 4️⃣ Search contacts (SQLite version)
+   - 5️⃣ Exit
 
 ---
 
