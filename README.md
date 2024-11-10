@@ -8,13 +8,13 @@
 A versatile contact management system that makes organizing connections effortless. Built with Python, ContactFlow offers both GUI and CLI interfaces with multiple storage options, making it perfect for both personal and professional use.
 
 ## Why ContactFlow?
-✨ Modern GUI interface with dark mode support
-🖥️ Dual interface options (GUI/CLI)
-💾 Multiple storage options (JSON/SQLite)
-🔍 Advanced contact search
-➕ Easy add/remove functionality
-🔄 Real-time updates
-📊 Contact history tracking
+- ✨ Modern GUI interface with dark mode support
+- 🖥️ Dual interface options (GUI/CLI)
+- 💾 Multiple storage options (JSON/SQLite)
+- 🔍 Advanced contact search
+- ➕ Easy add/remove functionality
+- 🔄 Real-time updates
+- 📊 Contact history tracking
 
 ## ✨ Features
 
@@ -71,15 +71,15 @@ Traditional command-line interface for:
 ### CLI Version
 1. Run `update.py` or `sample.py`
 2. Choose from the menu options:
-   - 1️⃣ Add contact
-   - 2️⃣ Remove contact
-   - 3️⃣ Show contacts
-   - 4️⃣ Search contacts (SQLite version)
-   - 5️⃣ Exit
+   - 🔵 Add contact
+   - 🔴 Remove contact
+   - 📋 Show contacts
+   - 🔍 Search contacts (SQLite version)
+   - 🚪 Exit
 
 ---
 
-*Note: This is a basic contact management system suitable for learning purposes and simple contact storage needs.* 🎯
+*Note: ContactFlow is a basic contact management system suitable for learning purposes and simple contact storage needs.* 🎯
 
 ### 👨‍💻 Contributing
 
@@ -118,3 +118,5 @@ SOFTWARE.
 ### 🤝 Support
 
 If you have any questions or need help, feel free to open an issue!
+
+This project is created by `@moelkenzi` at SNU and `@Gabaxey` at Zam-Zam University.
